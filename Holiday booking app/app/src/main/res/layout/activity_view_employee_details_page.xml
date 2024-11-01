@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3CCCC">
+
+    <ImageButton
+        android:id="@+id/imageButton23"
+        android:layout_width="61dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="691dp"
+        android:contentDescription="Back button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <ImageButton
+        android:id="@+id/imageButton24"
+        android:layout_width="51dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="359dp"
+        android:layout_marginBottom="680dp"
+        android:backgroundTint="#D3CCCC"
+        android:contentDescription="Notification Bell"
+        android:rotation="26"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_popup_reminder" />
+
+    <View
+        android:id="@+id/view55"
+        android:layout_width="409dp"
+        android:layout_height="79dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="652dp"
+        android:background="@drawable/nav_bar_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton25"
+        android:layout_width="103dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="202dp"
+        android:backgroundTint="#F3EDF7"
+        android:contentDescription="Calendar"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+
+    <ImageButton
+        android:id="@+id/imageButton26"
+        android:layout_width="102dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="306dp"
+        android:layout_marginTop="652dp"
+        android:layout_marginEnd="3dp"
+        android:backgroundTint="#F3EDF7"
+        android:contentDescription="Your Profile"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/profile_icon_person" />
+
+    <ImageButton
+        android:id="@+id/imageButton44"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="652dp"
+        android:layout_marginEnd="210dp"
+        android:backgroundTint="#F3EDF7"
+        android:contentDescription="Settings"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_manage" />
+
+    <ImageButton
+        android:id="@+id/imageButton45"
+        android:layout_width="99dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="652dp"
+        android:layout_marginEnd="310dp"
+        android:backgroundTint="#F3EDF7"
+        android:contentDescription="Home"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home_icon" />
+
+    <SearchView
+        android:layout_width="335dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginBottom="614dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#B8B1B1"
+        android:queryHint="Search Employee"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="154dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="555dp"
+        android:backgroundTint="#3F51B5"
+        android:text="Edit Details"
+        android:textColorLink="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view25"
+        android:layout_width="354dp"
+        android:layout_height="446dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="186dp"
+        android:layout_marginBottom="99dp"
+        android:background="@drawable/rounded_gray_square"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view26"
+        android:layout_width="321dp"
+        android:layout_height="233dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="203dp"
+        android:background="@drawable/rounded_gray_square"
+        android:backgroundTint="#938D8D"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view27"
+        android:layout_width="337dp"
+        android:layout_height="164dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="456dp"
+        android:layout_marginBottom="111dp"
+        android:background="@drawable/rounded_gray_square"
+        android:backgroundTint="#938D8D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="86dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginBottom="437dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars[0]" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="206dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="295dp"
+        android:layout_marginBottom="296dp"
+        android:text="Email:\nPhone number:\nRoad:\nCity/Town:\nPostcode:\nDate Of Birth:"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="142dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginBottom="431dp"
+        android:text="Full Name"
+        android:textColor="#3F51B5"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="189dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="464dp"
+        android:layout_marginBottom="111dp"
+        android:text="Employee Number:\nJob:\nWage:\nTaxcode:\nStart Date:\nNational Insurance:\n"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="27dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginBottom="564dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <ImageButton
+        android:id="@+id/imageButton57"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginBottom="496dp"
+        android:backgroundTint="#938D8D"
+        android:contentDescription="Show Less Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/arrow_up_float" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
